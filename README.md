@@ -1,5 +1,5 @@
-
 #CSC 335 Project 2: More Cryptograms  
+
 Due: Monday, September 30, 2019, before midnight 
 
 *“The client loved your prototype; they wish to move forward” your project
@@ -80,7 +80,7 @@ features:
 |   | H |   |   |   |   | E |   |   |   |
 | N | R | Y | F |   | L | B |   |   |   |
 
-*(and so on…)*
+*(and so on…) -- this table might not render well in markdown, use the website version*
 
 Best Practices
 ==============
