@@ -1,4 +1,5 @@
-#CSC 335 Project 2: More Cryptograms  
+CSC 335 Project 2: More Cryptograms  
+===============================================
 
 Due: Monday, September 30, 2019, before midnight 
 
