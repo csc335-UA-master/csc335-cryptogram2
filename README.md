@@ -12,13 +12,7 @@ that I wrote worked and was okay, but if this is going to be something I’m
 working on for the next few weeks, I should take some time to bring the code up
 to best practices.”*
 
-Design is only an issue when reuse is a concern. If something you create is used
-and discarded, effort on the design may be wasted. We need to revisit code to
-understand what good design and what bad design gets in our way. In this
-project, we will attempt to validate some of our choices in Project 1 by adding
-new features to our code base, and we will bring our project up to more rigorous
-standard of coding, so we can be sure our code is correct as it grows and
-remember what it does as time goes on.
+Design is only an issue when reuse is a concern. If something you create is used and discarded, effort on the design may be wasted. We need to revisit code to understand what good design enables and what bad design puts in our way. In this project, we will attempt to validate some of our choices in Project 1 by adding new features to our code base, and we will bring our project up to more rigorous standard of coding, so we can be sure our code is correct as it grows and remember what it does as time goes on.
 
 New Features
 ============
