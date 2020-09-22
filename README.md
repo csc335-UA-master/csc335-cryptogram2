@@ -66,7 +66,7 @@ features:
 |   | H |   |   |   |   | E |   |   |   |
 | N | R | Y | F |   | L | B |   |   |   |
 
-*(and so on…) -- this table might not render well in markdown, use the website version*
+*(and so on…) -- this table might not render well in markdown, use the pdf version from D2L*
 
 Best Practices
 ==============
