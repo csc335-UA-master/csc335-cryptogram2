@@ -1,16 +1,7 @@
 CSC 335 Project 2: More Cryptograms  
 ===============================================
 
-Due: Monday, September 30, 2019, before midnight 
-
-*“The client loved your prototype; they wish to move forward” your project
-manager tells you this morning. “They have a few new requests and it sounds like
-this could be a long-term commitment”.*
-
-*“Uh oh,” you think to yourself. “I wonder what they’re going to want. The code
-that I wrote worked and was okay, but if this is going to be something I’m
-working on for the next few weeks, I should take some time to bring the code up
-to best practices.”*
+Due:Monday, October 5, 2020, by 11:59pm
 
 Design is only an issue when reuse is a concern. If something you create is used and discarded, effort on the design may be wasted. We need to revisit code to understand what good design enables and what bad design puts in our way. In this project, we will attempt to validate some of our choices in Project 1 by adding new features to our code base, and we will bring our project up to more rigorous standard of coding, so we can be sure our code is correct as it grows and remember what it does as time goes on.
 
@@ -33,25 +24,25 @@ features:
       
     The program will now prompt the user:  
       
-    Enter a command (help to see commands):  
+    Enter a command (type help to see commands):  
       
     The commands we will support are:
-    1.  **replace X by Y** – replace letter X by letter Y in our attempted
+    1.  **replace X by Y** â€“ replace letter X by letter Y in our attempted
         solution    
-        **X = Y** – a shortcut for this same command
-    2.  **freq** – Display the letter frequencies in the encrypted quotation
+        **X = Y** â€“ a shortcut for this same command
+    2.  **freq** â€“ Display the letter frequencies in the encrypted quotation
         (i.e., how many of letter X appear) like:    
         A: 3 B: 8 C:4 D: 0 E: 12 F: 4 G: 6  
         *(and so on, 7 per line for 4 lines)*
-    3.  **hint –** display one correct mapping that has not yet been guessed
-    4.  **exit –** Ends the game early
-    5.  **help** – List these commands
+    3.  **hint â€“** display one correct mapping that has not yet been guessed
+    4.  **exit â€“** Ends the game early
+    5.  **help** â€“ List these commands
 
 3.  We want to support arbitrarily long quotes (quotes.txt in the new project
     folder has some longer ones). The ones in Project 1 were limited to \<= 80
     characters so they fit on a normal console terminal line without wrapping.
     Wrapping is a problem because we want to be able to line up the guess on top
-    of the encrypted quote, and that’s not possible if we just display a long
+    of the encrypted quote, and thatâ€™s not possible if we just display a long
     quote and have it span across multiple lines automatically.  
       
     We will need to process the encrypted quote and the guess so far strings so
@@ -60,9 +51,9 @@ features:
     For example, if our screen was only 10 letters wide, and we had the example
     from Project 1:  
     
-      T        HE  .  H    E THE    E. -       T       
+      TÂ Â Â Â Â Â Â  HEÂ  .Â  HÂ Â Â  E THEÂ Â Â  E. -Â Â Â Â Â Â  TÂ Â Â Â Â Â Â 
       JWSI ZN KRBWP. NRYF LB JRB KYVB. - SZGQN JYTHWSVN
-   we’d want to do (the lines are just to show you the rows and columns of the
+   weâ€™d want to do (the lines are just to show you the rows and columns of the
    screen):
 
 | T |   |   |   |   |   |   |   |   |   |
@@ -75,7 +66,7 @@ features:
 |   | H |   |   |   |   | E |   |   |   |
 | N | R | Y | F |   | L | B |   |   |   |
 
-*(and so on…) -- this table might not render well in markdown, use the website version*
+*(and so onâ€¦) -- this table might not render well in markdown, use the website version*
 
 Best Practices
 ==============
@@ -130,7 +121,7 @@ Requirements
 -   A working Java implementation of the Cryptogram program that is modified
     with the new features as described above.
 
-    -   As before, if something isn’t specified in its design, you are allowed
+    -   As before, if something isnâ€™t specified in its design, you are allowed
         to make a reasonable choice as to how to do it. This time, however, you
         know something more than you did before: that you might be asked to
         change the way this code works in the future in terms of functionality
