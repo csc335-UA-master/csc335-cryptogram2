@@ -49,8 +49,10 @@ features:
     For example, if our screen was only 10 letters wide, and we had the example
     from Project 1:  
     
+```
       T        HE  .  H    E THE    E. -       T       
       JWSI ZN KRBWP. NRYF LB JRB KYVB. - SZGQN JYTHWSVN
+```   
    we’d want to do (the lines are just to show you the rows and columns of the
    screen):
 
